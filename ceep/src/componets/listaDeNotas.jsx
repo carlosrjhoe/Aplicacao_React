@@ -4,20 +4,14 @@ import CardNotas from "./cardNotas";
 class ListaDeNotas extends Component{
 
   render(){
-    return (
-      <ul>
+    return <ul>{Array.of("Trabalho", "trabalho", "Estudos").map(categoria => {
+      return (
         <li>
-            <CardNotas/>
+          <div>{categoria}</div>
+          <CardNotas/>
         </li>
-        <li>
-            <CardNotas/>
-        </li>
-        <li>
-            <CardNotas/>
-        </li>
-      </ul>
-      
-    )
+      )
+    })}</ul>
   }
 }
 export default ListaDeNotas;
