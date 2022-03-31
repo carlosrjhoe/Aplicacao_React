@@ -8,7 +8,7 @@
   padding: 12px 40px;
 }
 .form-cadastro_input {
-  margin-top: px;
+  margin-top: 8px;
   padding: 4px;
   border: none;
   background-color: var(--fundo-detalhes);
@@ -16,18 +16,7 @@
   font-weight: 100;
 }
 
-.form-cadastro_textarea {
-  margin-top: 10px;
-  padding: 10px;
-  border: none;
-  background-color: var(--fundo-detalhes);
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100;
-}
-
 .form-cadastro_submit {
-  margin-top: 10px;
-  padding: 10px;
   align-self: flex-end;
   width: 30%;
   background-color: var(--secundaria);
