@@ -28,3 +28,12 @@
 - Tratando o conflito de nomes
 - Ponto de entrada dos módulos
 - Organização do projeto
+
+# Aula 04:
+
+## O que aprendemos nessa aula:
+
+- Como o this do JS é dinâmico e como lidar com isso.
+- Referências para funções e injeção de dependências.
+- Associando referências através do bind.
+- Passando propriedades para elementos filhos
