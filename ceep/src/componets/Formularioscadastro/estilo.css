@@ -17,6 +17,8 @@
 }
 
 .form-cadastro_submit {
+  margin-top: 8px;
+  padding: 4px;
   align-self: flex-end;
   width: 30%;
   background-color: var(--secundaria);

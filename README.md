@@ -37,3 +37,14 @@
 - Referências para funções e injeção de dependências.
 - Associando referências através do bind.
 - Passando propriedades para elementos filhos
+
+
+# Aula 05:
+
+## O que aprendemos nessa aula
+
+- Pensando sobre como transmitir informações entre objetos
+- Fluxo de atualização do sistema
+- Para que serve o state
+- Como atribuir o state de maneira segura
+- Atualizando a visualização da tela dinamicamente
