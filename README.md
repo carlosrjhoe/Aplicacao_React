@@ -48,3 +48,12 @@
 - Para que serve o state
 - Como atribuir o state de maneira segura
 - Atualizando a visualização da tela dinamicamente
+
+# Aula 06:
+
+## O que aprendemos nessa aula:
+
+- Diferentes maneiras de importar SVGs
+- Passando funções como propriedades para outros componentes
+- Revisão State e bind.
+- O que é e para que serve a ferramenta SVGR
