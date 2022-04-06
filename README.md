@@ -57,3 +57,13 @@
 - Passando funções como propriedades para outros componentes
 - Revisão State e bind.
 - O que é e para que serve a ferramenta SVGR
+
+# Aula 07:
+
+## O que aprendemos nessa aula:
+
+- O que é o componente Fragment
+- Qual a diferença entre stateless e statefull components
+- Como decidir onde colocar informações
+- Como funciona o Spread Operator do JS
+Passando funções por propriedade e gerenciando estado
