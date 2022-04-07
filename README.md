@@ -67,3 +67,13 @@
 - Como decidir onde colocar informações
 - Como funciona o Spread Operator do JS
 Passando funções por propriedade e gerenciando estado
+
+# Aula 08:
+
+## O que aprendemos nessa aula:
+
+-Como adicionar options no formulário dinamcamente
+- Fizemos uma reflexão sobre o design do proeto
+- Alteramos a representação de uma categori
+- Separação entre dados e visualização e quas as vantagens dessa abordagem
+- Problemas com renderização e otimização doprojeto
