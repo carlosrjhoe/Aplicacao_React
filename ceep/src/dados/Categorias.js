@@ -9,12 +9,12 @@ export default class Categorias{
     }
 
     notificar(){
-        this._inscritos.forEach(func =>{
+        this._inscritos.forEach(func => {
             func(this.categorias);
         } );
     }
-    adicionarCategoria(novaCaegoria){
-        console.log(this.categorias);
-        this.categorias.push(novaCaegoria);
+    adicionarCategoria(novaCategoria){
+        this.categorias.push(novaCategoria);
+        this.notificar();
     }
 }
