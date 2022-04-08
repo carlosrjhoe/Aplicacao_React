@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ListaDeNotas from "./components/ListaDeNotas";
 import FormularioCadastro from "./components/FormularioCadastro";
 import ListaDeCategorias from "./components/ListaDeCategorias";
-import "./app.css";
+import "./assets/App.css";
 import "./assets/index.css";
 import Categorias from "./dados/Categorias";
 import ArrayDeNotas from "./dados/Notas";
@@ -18,8 +18,8 @@ class App extends Component {
     return (
       <section className="conteudo">
         <FormularioCadastro
-          categorias={this.categorias.categorias}
-          criarNota={this.notas.criarNota}
+          categorias={this.categorias}
+          criarNota={this.notas.adicionarNota.bind(this.notas)}
         />
         <main className="conteudo-principal">
           <ListaDeCategorias
@@ -27,8 +27,8 @@ class App extends Component {
             categorias={this.categorias}
           />
           <ListaDeNotas
-            apagarNota={this.notas.apagarNota}
-            notas={this.notas.notas}
+            apagarNota={this.notas.apagarNota.bind(this.notas)}
+            notas={this.notas}
           />
         </main>
       </section>

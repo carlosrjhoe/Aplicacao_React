@@ -87,3 +87,12 @@ Passando funções por propriedade e gerenciando estado
 - Separando dados da renderização
 - Padrão de projeto Observable
 - Vantagens de se fazer injeção de dependências
+
+# Aula 10:
+
+## O que aprendemos nessa aula:
+
+- Como funciona o ciclo de vida dos componentes
+- Métodos do ciclo de vida como o ComponentDidMount e o ComponentWillUnmount
+- Adicionando estado local aos componentes e tirando de um componente pai
+- Detalhes do bind e referencias para funções
