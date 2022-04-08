@@ -77,3 +77,13 @@ Passando funções por propriedade e gerenciando estado
 - Alteramos a representação de uma categori
 - Separação entre dados e visualização e quas as vantagens dessa abordagem
 - Problemas com renderização e otimização doprojeto
+
+# Aula 09:
+
+## O que aprendemos nessa aula:
+
+- Por que é bom tirarmos referências do state em componentes que estão muito acima na hierarquia
+- Por que precisamos de uma fonte de dados
+- Separando dados da renderização
+- Padrão de projeto Observable
+- Vantagens de se fazer injeção de dependências
