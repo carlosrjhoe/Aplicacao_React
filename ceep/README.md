@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Aplicacao_React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Aula 01:
 
-## Available Scripts
+## O que aprendemos nessa aula:
 
-In the project directory, you can run:
+- Como preparar o ambiente instalando o Node.js e o NPX para poder criar a aplicação via Create-React-App.
+- Limpei o projeto para não deixar elementos que não serão utilizados mais pra frente sujarem minha hierarquia
 
-### `npm start`
+# Aula 02:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## O que aprendemos nessa aula:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Como podemos criar class components
+- Entendendo como o JSX renderiza objetos
+- Hierarquia entre componentes (Pai/filhos)
+- Componentes podem ter filhos que são componentes
+- Como integrar o Javascript no meio do seu JSX
 
-### `npm test`
+# Aula 03:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## O que aprendemos nessa aula:
 
-### `npm run build`
+- Como integrar CSS dentro da sua aplicação React
+- Diferenças do class e className
+- Propriedade "key" dos componentes
+- Padrão de nomenclatura do CSS
+- Tratando o conflito de nomes
+- Ponto de entrada dos módulos
+- Organização do projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Aula 04:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## O que aprendemos nessa aula:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Como o this do JS é dinâmico e como lidar com isso.
+- Referências para funções e injeção de dependências.
+- Associando referências através do bind.
+- Passando propriedades para elementos filhos
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Aula 05:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## O que aprendemos nessa aula
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Pensando sobre como transmitir informações entre objetos
+- Fluxo de atualização do sistema
+- Para que serve o state
+- Como atribuir o state de maneira segura
+- Atualizando a visualização da tela dinamicamente
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Aula 06:
 
-## Learn More
+## O que aprendemos nessa aula:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Diferentes maneiras de importar SVGs
+- Passando funções como propriedades para outros componentes
+- Revisão State e bind.
+- O que é e para que serve a ferramenta SVGR
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Aula 07:
 
-### Code Splitting
+## O que aprendemos nessa aula:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- O que é o componente Fragment
+- Qual a diferença entre stateless e statefull components
+- Como decidir onde colocar informações
+- Como funciona o Spread Operator do JS
+Passando funções por propriedade e gerenciando estado
 
-### Analyzing the Bundle Size
+# Aula 08:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## O que aprendemos nessa aula:
 
-### Making a Progressive Web App
+-Como adicionar options no formulário dinamcamente
+- Fizemos uma reflexão sobre o design do proeto
+- Alteramos a representação de uma categori
+- Separação entre dados e visualização e quas as vantagens dessa abordagem
+- Problemas com renderização e otimização doprojeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Aula 09:
 
-### Advanced Configuration
+## O que aprendemos nessa aula:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Por que é bom tirarmos referências do state em componentes que estão muito acima na hierarquia
+- Por que precisamos de uma fonte de dados
+- Separando dados da renderização
+- Padrão de projeto Observable
+- Vantagens de se fazer injeção de dependências
 
-### Deployment
+# Aula 10:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## O que aprendemos nessa aula:
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Como funciona o ciclo de vida dos componentes
+- Métodos do ciclo de vida como o ComponentDidMount e o ComponentWillUnmount
+- Adicionando estado local aos componentes e tirando de um componente pai
+- Detalhes do bind e referencias para funções
