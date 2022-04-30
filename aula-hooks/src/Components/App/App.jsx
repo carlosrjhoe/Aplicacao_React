@@ -1,8 +1,12 @@
 import './App.css';
+import Counter from'../Counter/Counter';
 
 function App() {
   return (
-    <h1>Olá mundo...</h1>
+    <div>
+      <h1>Olá mundo...</h1>
+      <Counter />
+    </div>
   );
 }
 
