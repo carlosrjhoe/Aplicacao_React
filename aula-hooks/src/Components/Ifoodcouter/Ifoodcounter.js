@@ -1,8 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "../Ifoodcouter/Ifoodcounter.css"
 
 export default function Ifoodcounter() {
   const [value, setValue] = useState(0)
+
+  useEffect(()=>{
+    
+  },[value])
 
 
   function down(){
@@ -21,5 +25,6 @@ export default function Ifoodcounter() {
       <p>{value}</p>
       <button class="botao01" onClick={down}>-</button>
     </div>
+
   )
 }
