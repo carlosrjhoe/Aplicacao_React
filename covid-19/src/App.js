@@ -1,12 +1,14 @@
-import './App.css';
+import React from 'react';
+import { StylesProvider } from '@material-ui/styles'
+import { CssBaseline } from '@material-ui/core'
+import GlobalStyle from './commons/styles/global-style'
 
 function App() {
   return (
-    <>
-      <h1>
-        Olá mundo!!!
-      </h1>
-    </>
+    <StylesProvider >
+      <CssBaseline />
+      <GlobalStyle />
+    </StylesProvider>
   );
 }
 
