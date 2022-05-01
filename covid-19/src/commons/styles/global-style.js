@@ -23,6 +23,8 @@ const globalStyle = createGlobalStyle`
     background-size: cover;
     background-position: center center;
   }
+  
+  // classes auxiliares
   .mb-2 {
     margin-bottom: 16px;
   }
