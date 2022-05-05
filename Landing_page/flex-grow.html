@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundamento - Flex grow</title>
+  <style>
+    .container{
+      display: flex;
+      max-width: 350px;
+      border: 2px solid black;
+      justify-content: center;
+    }
+    .item{
+      background-color: blueviolet;
+      margin: 5px;
+      color: white;
+      text-align: center;
+      flex: 1;
+      padding: 10px;
+    }
+    .fg-0{
+      flex-grow: 0;
+    }
+    .fg-1{
+      flex-grow: 1;
+    }
+    .fg-2{
+      flex-grow: 2;
+    }
+    .fg-3{
+      flex-grow: 3;
+    }
+  </style>
+</head>
+<body>
+  <h2>flex-grow</h2>
+  <section class="container">
+    <div class="item fg-0">Item 1</div>
+    <div class="item fg-0">Item 2</div>
+    <div class="item fg-0">Item 3</div>
+  
+  </section>
+  <h2>flex-grow 1</h2>
+  <section class="container">
+    <div class="item fg-1">Item 1</div>
+    <div class="item fg-2">Item 2</div>
+    <div class="item fg-1">Item 3</div>
+    <div class="item fg-0">Item 4</div>
+  </section>
+  <h2>flex-grow 2</h2>
+  <section class="container">
+    <div class="item fg-2">Item 1</div>
+    <div class="item fg-3">Item 2</div>
+  </section>
+  <h2>flex-grow 3</h2>
+  <section class="container">
+    <div class="item fg-2">Item 1</div>
+    <div class="item fg-3">Item 2</div>
+    <div class="item fg-1">Item 3</div>
+  </section>
+</body>
+</html>
