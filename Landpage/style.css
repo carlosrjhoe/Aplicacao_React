@@ -162,3 +162,18 @@ header .menu{
   width: 80%;
   margin: auto;
 }
+
+.flex-container{
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.flex-items{
+  margin: auto;
+  color: #122A57;
+
+}
+
+.flex-items a{
+  
+}
