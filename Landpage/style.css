@@ -34,6 +34,7 @@ header .list-items{
   max-width: 260px;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .list-items li a{
@@ -49,10 +50,33 @@ header .menu{
   align-items: center;
   justify-content: space-between;
 }
+
 .apresentacao .texto-apresentacao{
   min-height: 200px;
 }
 
 .texto-apresentacao h1{
   color: #122A57;
+  font-size: 48px;
+  margin: 10px;
+}
+
+.texto-apresentacao a{
+  background-color: #122A57;
+  color: white;
+  text-align: center;
+  width: 220px;
+  border-radius: 30px;
+  display: block;
+  text-decoration: none;
+  height: 50px;
+  line-height: 48px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#quem-somos{
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
 }
