@@ -24,6 +24,7 @@ div img{
   max-width: 992px;
   margin: auto;
   width: 100%;
+  min-width: 320px;
 }
 
 header{
@@ -58,6 +59,7 @@ header .menu{
 
 .apresentacao .texto-apresentacao{
   min-height: 200px;
+  
 }
 
 .texto-apresentacao h1{
@@ -167,21 +169,31 @@ header .menu{
   display: flex;
 }
 
-.plano{
+#planos{
   flex-direction: column;
   min-height: 100%;
+  padding-top: 50px;
+}
+
+#planos h2{
+  font-size: 32px;
 }
 
 .list-planos{
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .item-plano{
   flex: 1;
   border: 2px solid #122A57;
   margin-right: 20px;
-  padding: 10px;;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 240px;
+  margin-bottom: 20px;
 }
 
 .item-plano .btn{
@@ -194,6 +206,7 @@ header .menu{
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 20px;
 }
 
 .item.plano h3::after{
@@ -206,5 +219,81 @@ header .menu{
 }
 
 .item-plano ul{
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  margin-bottom: 10px;
+}
+
+.item-plano ul li{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.item-plano ul li::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #122A57;
+  margin-right: 5px;
+}
+
+footer{
+  display: flex;
+  background-color: #122A57;
+  height: 70px;
+  color: #fff;
+}
+
+.flex-container{
+  justify-content: space-between;
+}
+
+/* mobile */
+
+@media(max-width: 992px){
+  .flex-container{
+    flex-direction: column;
+  }
+
+  .apresentacao{
+    flex-direction: column-reverse;
+  }
+
+  .apresentacao .texto-apresentacao{
+    width: 100%;
+  }
+
+  #quem-somos{
+    flex-direction: column-reverse;
+  }
+
+  #quem-somos img{
+    min-width: 320px;
+    margin: auto;
+  }
+
+  .list-servicos{
+    flex-direction: column;
+  }
+
+  .item-servicos img{
+    width: 50%;
+    margin: auto;
+  }
+
+  .list-planos{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .list-planos .item-plano{
+    max-width: 90%;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
