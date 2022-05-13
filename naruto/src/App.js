@@ -1,10 +1,12 @@
-
+import narutoImg from "./images/naruto.png";
 
 
 function App() {
   return (
     <div className="App">
-    <h1>Carlos</h1>
+      <p>Carlos</p>
+      <button>Jutsu</button>
+      <img src={narutoImg} alt="Imagem de Naruto com uma kunai"/>
     </div>
   );
 }
