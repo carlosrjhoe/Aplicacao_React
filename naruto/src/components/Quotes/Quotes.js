@@ -1,11 +1,12 @@
 import style from "styled-components";
+import { Button } from "../Button/Button";
 
-export const Quotes = ({ quotes }) => {
+export const Quotes = ({ quote, onUpdate }) => {
   return (
     <Wrapper>
       <Quote>
         <p>Carlos</p>
-        <button>Jutsu</button>
+        <Button onClick={onUpdate}>Kage Bunshin no Jutsu</Button>
       </Quote>
     </Wrapper>
   )
