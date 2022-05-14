@@ -1,11 +1,16 @@
 import styled from "styled-components";
 import { Quotes } from "./components/Quotes/Quotes";
 import narutoImg from "./images/naruto.png";
+import { getQuote } from "./services";
 
 function App() {
+  const onUpdate = () => {
+    console.log('teste');
+  };
+
   return (
     <Content>
-      <Quotes/>
+      <Quotes onUpdate={onUpdate} />
       <NarutoImg src={narutoImg} alt="Imagem de Naruto com uma kunai"/>
     </Content>
   );
