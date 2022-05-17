@@ -1,5 +1,5 @@
 {
-  "name": "spread_sullstack",
+  "name": "api_interface",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
