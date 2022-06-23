@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom";
 import './index.css' // inportando arquivo CSS
 import Primeiro from './components/Primeiro' // Importando 1° componente
-import Segundo from './components/Segundo'
-import ComParametro from './components/ComParametro'
+import Segundo from './components/Segundo' // Importando 2° componente 
+import ComParametro from './components/ComParametro' // Importando 3° componente
 
 // Sintaxe JSX
 ReactDOM.render(
