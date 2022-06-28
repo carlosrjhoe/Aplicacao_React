@@ -3,6 +3,7 @@ import './index.css' // inportando arquivo CSS
 import Primeiro from './components/Primeiro' // Importando 1° componente
 import Segundo from './components/Segundo' // Importando 2° componente 
 import ComParametro from './components/ComParametro' // Importando 3° componente
+import Fragmento from './components/Fragmento'
 
 // Sintaxe JSX
 ReactDOM.render(
@@ -14,6 +15,7 @@ ReactDOM.render(
             titulo="Terceiro Componente"
             subtitulo="Muito massa essa passagem por parametro!!!">
         </ComParametro>
+        <Fragmento></Fragmento>
     </div>,
     document.getElementById('root')
 )
