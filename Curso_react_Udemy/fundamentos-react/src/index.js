@@ -1,21 +1,13 @@
 import ReactDOM from "react-dom";
-import './index.css' // inportando arquivo CSS
-import Primeiro from './components/Primeiro' // Importando 1° componente
-import Segundo from './components/Segundo' // Importando 2° componente 
-import ComParametro from './components/ComParametro' // Importando 3° componente
-import Fragmento from './components/Fragmento'
+import React from "react";
+import App from "./App";
+import './index.css'
+
 
 // Sintaxe JSX
 ReactDOM.render(
     <div>
-        <h1>Olá mundo, Seja bem vindo!!!</h1>
-        <Primeiro></Primeiro>
-        <Segundo></Segundo>
-        <ComParametro 
-            titulo="Terceiro Componente"
-            subtitulo="Muito massa essa passagem por parametro!!!">
-        </ComParametro>
-        <Fragmento></Fragmento>
+        <App/>
     </div>,
     document.getElementById('root')
 )
