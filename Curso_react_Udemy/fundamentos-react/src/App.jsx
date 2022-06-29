@@ -1,26 +1,12 @@
 import React from "react";
-import Primeiro from "./components/Primeiro";
-import Segundo from "./components/Segundo";
-import ComParametro from "./components/ComParametro";
-import Fragmento from "./components/Fragmento";
-import QuartoComponente from "./components/QuartoComponente";
-import QuintoComponente from "./components/QuintoComponente"
 import Aleatorio from "./components/Aleatorio";
+import Imc from "./components/Imc";
 
-function App(props) {
+function App() {
     return (
         <div>
-            <Aleatorio  min={10} max={100}/>
-            <QuintoComponente />
-            <h1>Olá mundo, Seja bem vindo!!!</h1>
-            <Primeiro/>
-            <Segundo/>
-            <ComParametro>
-                titulo="Terceiro Componente"
-            subtitulo="Muito massa essa passagem por parametro!!!">
-            </ComParametro>
-            <Fragmento/>
-            <QuartoComponente/>
+            <Aleatorio  min={1} max={100}/>
+            <Imc peso={85} altura={1.81}/>          
         </div>
     )
-}export default App;
+} export default App;

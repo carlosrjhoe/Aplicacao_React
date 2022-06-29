@@ -6,7 +6,8 @@ function Aleatorio (props) {
     const aleatorio = parseInt(Math.random() * (max - min));
     return (
         <div>
-            <h2>Valor Aleatório</h2>
+            <h1>Valor Aleatório</h1>
+            <button className="botao">Aperte aqui!</button>
             <p><strong>Valor minimo: </strong> {min} </p>
             <p><strong>Valor maximo: </strong> {max} </p>
             <p><strong>Valor Escolhido: </strong> {aleatorio} </p>
