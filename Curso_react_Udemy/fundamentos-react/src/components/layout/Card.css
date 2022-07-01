@@ -1,0 +1,18 @@
+.Card {
+    background-color: red;
+    border: 3px solid green;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Card .Title {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+}
+
+.Card .Content {
+    background-color: #ff3;
+    color: #959;
+    padding: 20px;
+}
