@@ -7,7 +7,7 @@ import Fragmento from "./components/Fragmento"
 
 function App() {
     return (
-        <div>
+        <div className="Card">
             <Card titulo={"Exemplo de Card"}> 
                 <Aleatorio  min={1} max={10}/>
             </Card>
