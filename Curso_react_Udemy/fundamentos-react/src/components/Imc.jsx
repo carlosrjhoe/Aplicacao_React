@@ -1,8 +1,8 @@
 import React from "react";
 
 function Imc(props) {
-    var peso = document.querySelector("#peso");
-    var altura = document.querySelector("#altura")
+    var peso = props.peso;
+    var altura = props.altura;
     var imc = peso / Math.pow(altura, 2);
     return (
         <div>
