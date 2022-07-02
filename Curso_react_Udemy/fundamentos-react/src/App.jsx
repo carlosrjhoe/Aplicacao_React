@@ -5,6 +5,7 @@ import Imc from "./components/Imc";
 import Card from "./components/layout/Card"
 import ComParametros from "./components/ComParametro"
 import Fragmento from "./components/Fragmento"
+import Soma from "./components/Soma";
 
 function App() {
     return (
@@ -27,6 +28,10 @@ function App() {
 
                 <Card titulo={"Fragmento"}>
                     <Fragmento></Fragmento>
+                </Card>
+
+                <Card>
+                    <Soma numero1={10} numero2={20}  />
                 </Card>
             </div>
         </div>
