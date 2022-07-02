@@ -8,19 +8,21 @@ import Fragmento from "./components/Fragmento"
 function App() {
     return (
         <div>
-            <Card titulo={'Exemplo de Card'}> 
+            <Card titulo={"Exemplo de Card"}> 
                 <Aleatorio  min={1} max={10}/>
             </Card>
 
-            <Card titulo={'Imc'}> 
-                <Imc  peso={85} altura={1.81} ></Imc>
+            <Card titulo={"Imc"}> 
+                <Imc  peso={75} altura={1.81} ></Imc>
             </Card>
 
-            <Card titulo={'ComParametro'}>
-                <ComParametros></ComParametros>
+            <Card titulo={"ComParametros"}>
+                <ComParametros titulo={"Olá mundo!"} subtitulo={"Vamos estudar ReactJS"}>
+                    
+                </ComParametros>
             </Card>
 
-            <Card>
+            <Card titulo={"Fragmento"}>
                 <Fragmento></Fragmento>
             </Card>
         </div>

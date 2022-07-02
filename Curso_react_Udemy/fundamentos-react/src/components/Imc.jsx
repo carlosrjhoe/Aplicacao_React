@@ -7,7 +7,7 @@ function Imc(props) {
     return (
         <div>
             <form>
-                <fieldset class="formulario">
+                <fieldset className="formulario">
                     <legend>Calculo de IMC</legend>
                     <p>
                         Peso:
