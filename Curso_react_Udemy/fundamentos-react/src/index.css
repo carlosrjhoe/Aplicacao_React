@@ -1,14 +1,25 @@
 body {
     font-family:fantasy;
     background-color: black;
+    font-size: 1.4rem;
 }
 
-h1, h2, h3 {
+.app, h1{
+    text-align: center;
+    color: rgb(88, 106, 248);
+}
+
+h2{
+    color: rgb(156, 144, 128);
     font-weight: 150;
 }
 
-h2, h3 {
+h3 {
     margin: 0.1px;
+}
+
+h4 {
+    color: rgb(138, 4, 4);
 }
 
 div h2{

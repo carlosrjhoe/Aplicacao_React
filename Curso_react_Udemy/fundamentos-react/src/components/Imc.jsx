@@ -20,7 +20,7 @@ function Imc(props) {
                 </fieldset>
                 <input type="submit" value="Enviar" onClick="msg"/>
             </form>
-            <h1><strong>Seu Imc é: </strong> {imc.toFixed(2)} </h1>
+            <h4><strong>Seu Imc é: </strong> {imc.toFixed(2)} </h4>
         </div>
     )
 } export default Imc
