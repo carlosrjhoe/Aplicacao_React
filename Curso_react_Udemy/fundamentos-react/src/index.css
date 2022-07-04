@@ -1,12 +1,11 @@
 body {
     font-family:fantasy;
-    background-color: black;
+    background-color: #111c59;
     font-size: 1.4rem;
 }
 
 .app, h1{
     text-align: center;
-    color: rgb(88, 106, 248);
 }
 
 h2{
@@ -29,7 +28,6 @@ div h2{
 }
 
 div h3{
-    color: red;
     background-color: black;
 }
 

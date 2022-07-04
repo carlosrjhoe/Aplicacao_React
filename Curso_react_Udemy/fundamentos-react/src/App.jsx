@@ -12,7 +12,7 @@ function App() {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
-                <Card titulo={"Exemplo de Card"}>
+                <Card titulo={"Exemplo de Card"} color="#F24848">
                     <Aleatorio min={1} max={10} />
                 </Card>
 
@@ -30,7 +30,7 @@ function App() {
                     <Fragmento></Fragmento>
                 </Card>
 
-                <Card>
+                <Card titulo={"Estudando"}>
                     <Soma numero1={10} numero2={20}  />
                 </Card>
             </div>

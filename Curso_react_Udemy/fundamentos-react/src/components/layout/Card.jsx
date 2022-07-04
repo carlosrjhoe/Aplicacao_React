@@ -1,11 +1,18 @@
 import React from "react";
 import "./Card.css"
 
-export default props => {
+export default (props) => {
+
+    const estilo = {
+        backgroundColor: props.color,
+    }
+
     return (
-        <div className="Card">
-            <h1 className="Title">Desafio Aleatório</h1> 
-            <div className="Content"> {props.children} </div>
+        <div className="Card" style={estilo}>
+            <h1 className="Title">{props.titulo}</h1> 
+            <div className="Content"> 
+                {props.children} 
+            </div>
         </div>
     );
 };
