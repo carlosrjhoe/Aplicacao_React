@@ -12,25 +12,25 @@ function App() {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
-                <Card titulo={"Exemplo de Card"} color="#F24848">
+                <Card titulo={"Exemplo de Card"} color="#E0FFFF">
                     <Aleatorio min={1} max={10} />
                 </Card>
 
-                <Card titulo={"Imc"}>
+                <Card titulo={"Imc"} color="#FFD700">
                     <Imc peso={75} altura={1.81} ></Imc>
                 </Card>
 
-                <Card titulo={"ComParametros"}>
+                <Card titulo={"ComParametros"} color="#F4A460">
                     <ComParametros titulo={"Olá mundo!"} subtitulo={"Vamos estudar ReactJS"}>
 
                     </ComParametros>
                 </Card>
 
-                <Card titulo={"Fragmento"}>
+                <Card titulo={"Fragmento"} color="#6B8E23">
                     <Fragmento></Fragmento>
                 </Card>
 
-                <Card titulo={"Estudando"}>
+                <Card titulo={"Estudando"} color="#2F4F4F">
                     <Soma numero1={10} numero2={20}  />
                 </Card>
             </div>
