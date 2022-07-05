@@ -12,7 +12,7 @@ function App() {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
-                /* Passando a cor em exadecial para a propriedade color */
+                {/* Passando a cor em exadecimal para a propriedade color */}
                 <Card titulo={"Exemplo de Card"} color="#E0FFFF">
                     <Aleatorio min={1} max={10} />
                 </Card>
