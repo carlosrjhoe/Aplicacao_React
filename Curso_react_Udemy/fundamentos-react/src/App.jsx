@@ -6,12 +6,18 @@ import Card from "./components/layout/Card"
 import ComParametros from "./components/ComParametro"
 import Fragmento from "./components/Fragmento"
 import Soma from "./components/Soma";
+import Familia from "./components/Basico/Familia"
 
 function App() {
     return (
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                {/* Passando componentes com propriedades herdada de filhos/Pai */}
+                <Card titulo="Exemplo componente com filhos" color="#777777">
+                    <Familia sobreNome="Conceição" />
+                </Card>
+
                 {/* Passando a cor em exadecimal para a propriedade color */}
                 <Card titulo={"Exemplo de Card"} color="#E0FFFF">
                     <Aleatorio min={1} max={10} />
