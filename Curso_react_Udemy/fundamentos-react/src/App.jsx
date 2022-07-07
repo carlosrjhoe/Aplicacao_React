@@ -7,12 +7,16 @@ import ComParametros from "./components/ComParametro"
 import Fragmento from "./components/Fragmento"
 import Soma from "./components/Soma";
 import Familia from "./components/Basico/Familia"
+import ListaAlunos from "./components/Repeticao/ListaAlunos";
 
 function App() {
     return (
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo="Lista de Alunos" color="#436277">
+                    <ListaAlunos />
+                </Card>
                 {/* Passando componentes com propriedades herdada de filhos/Pai */}
                 <Card titulo="Exemplo componente com filhos" color="#777777">
                     <Familia sobreNome="Conceição" />
@@ -38,7 +42,7 @@ function App() {
                 </Card>
 
                 <Card titulo={"Estudando"} color="#2F4F4F">
-                    <Soma numero1={10} numero2={20}  />
+                    <Soma numero1={10} numero2={20} />
                 </Card>
             </div>
         </div>

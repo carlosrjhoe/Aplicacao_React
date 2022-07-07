@@ -8,6 +8,7 @@ export default props => {
             <FamiliaMembros nome="Mayara" {...props} /> {/* Spreed*/}
             <FamiliaMembros nome="Neto" sobreNome={props.sobreNome} />
             <FamiliaMembros nome="Luna" {...props}/>
+            <FamiliaMembros nome="Emilly" {...props} />
         </div>
     )
 }
