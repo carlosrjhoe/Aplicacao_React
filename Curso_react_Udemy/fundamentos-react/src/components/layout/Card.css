@@ -10,14 +10,14 @@
 }
 
 .Card .Title {
-    background-color: #d99982;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     padding: 10px;
 }
 
 .Card .Content {
-    background-color: #d99982;
+    background-color: #fcfcfc;
     color: #959;
     flex: 1;
     padding: 10px;
