@@ -1,0 +1,13 @@
+.ListaVideoGames table {
+    width: 100%;
+    text-align: center;
+}
+
+.ListaVideoGames th {
+    background-color: #9baaff;
+    color: #000000;
+}
+
+.ListaVideoGames td {
+    color: rgb(0, 0, 0);
+}

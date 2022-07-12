@@ -9,19 +9,24 @@ import Soma from "./components/Soma";
 import Familia from "./components/Basico/Familia"
 import ListaAlunos from "./components/Repeticao/ListaAlunos";
 import Produtos from "./components/Repeticao/Produtos"
+import ListaVideoGames from "./components/Repeticao/ListaVideoGames"
 
 function App() {
     return (
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo="Video Games" color="#762810">
+                    <ListaVideoGames></ListaVideoGames>
+                </Card>
+
                 <Card titulo="Lista de produtos" color="#762543">
                     <Produtos></Produtos>
                 </Card>
 
-                <Card titulo="Lista de Alunos" color="#436277">
+                {/* <Card titulo="Lista de Alunos" color="#436277">
                     <ListaAlunos />
-                </Card>
+                </Card> */}
                 {/* Passando componentes com propriedades herdada de filhos/Pai
                 <Card titulo="Exemplo componente com filhos" color="#777777">
                     <Familia sobreNome="Conceição" />
