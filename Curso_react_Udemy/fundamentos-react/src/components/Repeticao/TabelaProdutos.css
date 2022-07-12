@@ -12,10 +12,12 @@
     color: rgb(0, 0, 0);
 }
 
+/* Class condicional para retornar no arquivo jsx uma tabela zebrada */
 .TabelaProdutos .par {
     background-color: #ddd;
 }
 
+/* Class condicional para retornar no arquivo jsx uma tabela zebrada */
 .TabelaProdutos .impar {
     background-color: #ccc;
 }

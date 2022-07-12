@@ -1,3 +1,5 @@
+// exportar um array para o componente Produtos.JSX
+
 const Produtos = [
     { id: 1, produto: 'Caneta', preco: 1.999999 },
     { id: 2, produto: 'Lapis', preco: 0.99999 },
