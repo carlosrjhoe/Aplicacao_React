@@ -10,12 +10,17 @@ import Familia from "./components/Basico/Familia"
 import ListaAlunos from "./components/Repeticao/ListaAlunos";
 import Produtos from "./components/Repeticao/Produtos"
 import ListaVideoGames from "./components/Repeticao/ListaVideoGames"
+import ParOuImpar from "./components/Condicional/parOuImpar";
 
 function App() {
     return (
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo="Par ou Impar" color="#109830">
+                    <ParOuImpar numero={2}></ParOuImpar>
+                </Card>
+
                 <Card titulo="Video Games" color="#762810">
                     <ListaVideoGames></ListaVideoGames>
                 </Card>
