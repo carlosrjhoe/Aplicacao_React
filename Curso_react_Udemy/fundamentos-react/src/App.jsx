@@ -1,24 +1,24 @@
 import React from "react";
 import "./App.css";
-import Aleatorio from "./components/Aleatorio";
-import Imc from "./components/Imc";
 import Card from "./components/layout/Card"
-import ComParametros from "./components/ComParametro"
-import Fragmento from "./components/Fragmento"
-import Soma from "./components/Soma";
-import Familia from "./components/Basico/Familia"
-import ListaAlunos from "./components/Repeticao/ListaAlunos";
 import Produtos from "./components/Repeticao/Produtos"
 import ListaVideoGames from "./components/Repeticao/ListaVideoGames"
-import ParOuImpar from "./components/Condicional/parOuImpar";
+import ImparOuPar from "./components/Condicional/ImparOuPar"
+// import Aleatorio from "./components/Aleatorio";
+// import Imc from "./components/Imc";
+// import ComParametros from "./components/ComParametro"
+// import Fragmento from "./components/Fragmento"
+// import Soma from "./components/Soma";
+// import Familia from "./components/Basico/Familia"
+// import ListaAlunos from "./components/Repeticao/ListaAlunos";
 
 function App() {
     return (
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
-                <Card titulo="Par ou Impar" color="#109830">
-                    <ParOuImpar numero={2}></ParOuImpar>
+                <Card titulo="Impar ou Par?">
+                    <ImparOuPar numero={2}></ImparOuPar>
                 </Card>
 
                 <Card titulo="Video Games" color="#762810">
