@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.css";
 import Card from "./components/layout/Card"
-import Produtos from "./components/Repeticao/Produtos"
 import ListaVideoGames from "./components/Repeticao/ListaVideoGames"
 import ImparOuPar from "./components/Condicional/ImparOuPar"
-// import Aleatorio from "./components/Aleatorio";
-// import Imc from "./components/Imc";
-// import ComParametros from "./components/ComParametro"
-// import Fragmento from "./components/Fragmento"
-// import Soma from "./components/Soma";
-// import Familia from "./components/Basico/Familia"
-// import ListaAlunos from "./components/Repeticao/ListaAlunos";
+import Produtos from "./components/Repeticao/Produtos"
+import Aleatorio from "./components/Aleatorio";
+import Imc from "./components/Imc";
+import ComParametros from "./components/ComParametro"
+import Fragmento from "./components/Fragmento"
+import Soma from "./components/Soma";
+import Familia from "./components/Basico/Familia"
+import ListaAlunos from "./components/Repeticao/ListaAlunos";
 
 function App() {
     return (
@@ -25,38 +25,39 @@ function App() {
                     <ListaVideoGames></ListaVideoGames>
                 </Card>
 
-                <Card titulo="Lista de produtos" color="#762543">
+                {/* <Card titulo="Lista de produtos" color="#762543">
                     <Produtos></Produtos>
                 </Card>
 
-                {/* <Card titulo="Lista de Alunos" color="#436277">
+                <Card titulo="Lista de Alunos" color="#436277">
                     <ListaAlunos />
-                </Card> */}
-                {/* Passando componentes com propriedades herdada de filhos/Pai
+                </Card>
+
+                Passando componentes com propriedades herdada de filhos/Pai
                 <Card titulo="Exemplo componente com filhos" color="#777777">
                     <Familia sobreNome="Conceição" />
                 </Card>
 
-                {/* Passando a cor em exadecimal para a propriedade color */}
-                {/* <Card titulo={"Exemplo de Card"} color="#E0FFFF">
+                // Passando a cor em exadecimal para a propriedade color
+                <Card titulo={"Exemplo de Card"} color="#E0FFFF">
                     <Aleatorio min={1} max={10} />
-                </Card> */}
+                </Card>
 
-                {/* <Card titulo={"Imc"} color="#FFD700">
+                <Card titulo={"Imc"} color="#FFD700">
                     <Imc peso={75} altura={1.81} ></Imc>
-                </Card> */}
+                </Card>
 
-                {/* <Card titulo={"ComParametros"} color="#F4A460">
+                <Card titulo={"ComParametros"} color="#F4A460">
                     <ComParametros titulo={"Olá mundo!"} subtitulo={"Vamos estudar ReactJS"}>
 
                     </ComParametros>
-                </Card> */}
+                </Card>
 
-                {/* <Card titulo={"Fragmento"} color="#6B8E23">
+                <Card titulo={"Fragmento"} color="#6B8E23">
                     <Fragmento></Fragmento>
-                </Card> */}
+                </Card>
 
-                {/* <Card titulo={"Estudando"} color="#2F4F4F">
+                <Card titulo={"Estudando"} color="#2F4F4F">
                     <Soma numero1={10} numero2={20} />
                 </Card> */}
             </div>
