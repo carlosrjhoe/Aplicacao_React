@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Card from "./components/layout/Card"
 import ListaVideoGames from "./components/Repeticao/ListaVideoGames"
+import ParOuImpar from "./components/Condicional/ParOuImpar";
 import Produtos from "./components/Repeticao/Produtos"
 import Aleatorio from "./components/Aleatorio";
 import Imc from "./components/Imc";
@@ -10,7 +11,6 @@ import Fragmento from "./components/Fragmento"
 import Soma from "./components/Soma";
 import Familia from "./components/Basico/Familia"
 import ListaAlunos from "./components/Repeticao/ListaAlunos";
-import ParOuImpar from "./components/Condicional/ParOuImpar";
 
 function App() {
     return (
@@ -18,7 +18,7 @@ function App() {
             <h1>Fundamentos React</h1>
             <div className="Cards">
                 <Card titulo="Par ou Impar">
-                    <ParOuImpar numero={1}></ParOuImpar>
+                    <ParOuImpar numero={8}></ParOuImpar>
                 </Card>
 
                 <Card titulo="Video Games" color="#762810">

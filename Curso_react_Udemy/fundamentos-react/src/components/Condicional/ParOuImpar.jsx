@@ -6,7 +6,7 @@ function ParOuImpar(props) {
     const resultado = props.numero % 2 === 0;
     return (
         <div>
-            {/* Aqui estou renderizando por condicional o valor do resultado se é par ou impar. */}
+            {/* Aqui estou renderizando por condicional e utilizando o operador ternário valor do resultado se é par ou impar. */}
             { resultado ? <span>Par</span> : <span>Impar</span> }
         </div>
     )
