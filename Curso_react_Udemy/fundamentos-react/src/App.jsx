@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Card from "./components/layout/Card"
 import ListaVideoGames from "./components/Repeticao/ListaVideoGames"
-import ParOuImpar from "./components/Condicional/ParOuImpar";
 import Produtos from "./components/Repeticao/Produtos"
 import Aleatorio from "./components/Aleatorio";
 import Imc from "./components/Imc";
@@ -11,14 +10,28 @@ import Fragmento from "./components/Fragmento"
 import Soma from "./components/Soma";
 import Familia from "./components/Basico/Familia"
 import ListaAlunos from "./components/Repeticao/ListaAlunos";
+import ParOuImpar from "./components/Condicional/ParOuImpar";
+import UsuarioInfo from "./components/Condicional/UsuarioInfo";
+import DiretaPai from "./components/Comunicacao/DiretaPai";
+import IndiretaPai from "./components/Comunicacao/IndiretaPai"
 
 function App() {
     return (
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo="Comunicação Indireta">
+                    <IndiretaPai></IndiretaPai>
+                </Card>
+                
+                <Card titulo="Comunicação Direta">
+                    <DiretaPai></DiretaPai>
+                </Card>
+                
                 <Card titulo="Par ou Impar">
-                    <ParOuImpar numero={8}></ParOuImpar>
+                    <ParOuImpar numero={10}></ParOuImpar>
+                    <UsuarioInfo usuario={{nome: 'Carlos'}} ></UsuarioInfo>
+                    <UsuarioInfo usuario={{email: ''}} ></UsuarioInfo>
                 </Card>
 
                 <Card titulo="Video Games" color="#762810">
