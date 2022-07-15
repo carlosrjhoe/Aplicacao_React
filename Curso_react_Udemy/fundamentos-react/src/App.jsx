@@ -20,11 +20,11 @@ function App() {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
-                <Card titulo="Comunicação Indireta">
+                <Card titulo="Comunicação Indireta" color="#515151">
                     <IndiretaPai></IndiretaPai>
                 </Card>
                 
-                <Card titulo="Comunicação Direta">
+                <Card titulo="Comunicação Direta" color="#242424">
                     <DiretaPai></DiretaPai>
                 </Card>
                 
