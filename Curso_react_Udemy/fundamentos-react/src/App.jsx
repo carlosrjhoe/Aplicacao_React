@@ -14,13 +14,19 @@ import ParOuImpar from "./components/Condicional/ParOuImpar";
 import UsuarioInfo from "./components/Condicional/UsuarioInfo";
 import DiretaPai from "./components/Comunicacao/DiretaPai";
 import IndiretaPai from "./components/Comunicacao/IndiretaPai"
+import input from "./components/formulario/Input";
+import Input from "./components/formulario/Input";
 
 function App() {
     return (
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
-                <Card titulo="Comunicação Indireta" color="#515151">
+                <Card titulo="Componente controlado">
+                    <Input/>
+                </Card>
+
+                {/*<Card titulo="Comunicação Indireta" color="#515151">
                     <IndiretaPai></IndiretaPai>
                 </Card>
                 
@@ -38,7 +44,7 @@ function App() {
                     <ListaVideoGames></ListaVideoGames>
                 </Card>
 
-                {/*<Card titulo="Lista de produtos" color="#762543">
+                <Card titulo="Lista de produtos" color="#762543">
                     <Produtos></Produtos>
                 </Card>
 
